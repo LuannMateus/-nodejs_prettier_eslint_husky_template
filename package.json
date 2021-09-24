@@ -12,6 +12,17 @@
         "type": "git",
         "url": "git+https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template.git"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npx lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.js": [
+            "npx pretty-quick --staged",
+            "npx eslint --fix src --ext .js"
+        ]
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
@@ -23,6 +34,9 @@
         "eslint": "^7.32.0",
         "eslint-config-airbnb-base": "^14.2.1",
         "eslint-plugin-import": "^2.24.2",
-        "prettier": "npm:@btmills/prettier@^2.3.1"
+        "husky": "^4.3.8",
+        "lint-staged": "^11.1.2",
+        "prettier": "npm:@btmills/prettier@^2.3.1",
+        "pretty-quick": "^3.1.1"
     }
 }
