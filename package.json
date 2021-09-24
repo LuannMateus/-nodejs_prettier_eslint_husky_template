@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "prettier": "npx prettier --write --ignore-unknown .",
+        "eslint": "npx eslint --fix src --ext .js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -19,6 +20,9 @@
     },
     "homepage": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template#readme",
     "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.24.2",
         "prettier": "npm:@btmills/prettier@^2.3.1"
     }
 }
