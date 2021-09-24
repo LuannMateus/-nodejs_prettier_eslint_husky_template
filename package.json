@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template#readme",
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "npm:@btmills/prettier@^2.3.1"
   }
 }
