@@ -1,23 +1,24 @@
 {
-  "name": "nodejs_husky_eslint_template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template/issues"
-  },
-  "homepage": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template#readme",
-  "devDependencies": {
-    "prettier": "npm:@btmills/prettier@^2.3.1"
-  }
+    "name": "nodejs_husky_eslint_template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "npx prettier --write --ignore-unknown .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template/issues"
+    },
+    "homepage": "https://github.com/LuannMateus/-nodejs_prettier_eslint_husky_template#readme",
+    "devDependencies": {
+        "prettier": "npm:@btmills/prettier@^2.3.1"
+    }
 }
